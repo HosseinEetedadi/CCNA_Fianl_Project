@@ -1,0 +1,51 @@
+```mermaid
+```mermaid
+graph TD
+
+%% ============= MAIN CLUSTERS =============
+A[Digital Twin<br>(Section 2)]
+B[Edge Computing<br>(Section 3)]
+C[Digital Twin in Edge Computing<br>(Section 4)]
+
+%% ============= DIGITAL TWIN SUB-NODES =============
+A1[Fundamentals<br>(2.1)]
+A2[Applications<br>(2.2)]
+A3[Limitations<br>(2.3)]
+
+A --> A1
+A --> A2
+A --> A3
+
+%% ============= EDGE COMPUTING SUB-NODES =============
+B1[Architecture<br>(3.1)]
+B2[Types<br>(3.2)]
+B3[Applications<br>(3.3)]
+B4[Emerging Technologies<br>(3.4)]
+
+B --> B1
+B --> B2
+B --> B3
+B --> B4
+
+%% ============= DT + EDGE SUB-NODES =============
+C1[Real-Time Monitoring<br>(4.1)]
+C2[Reliability & Resilience<br>(4.2)]
+C3[Security & Privacy<br>(4.3)]
+C4[Resource & Energy Management<br>(4.4)]
+C5[SWOT Analysis<br>(4.5)]
+
+C --> C1
+C --> C2
+C --> C3
+C --> C4
+C --> C5
+
+%% ============= CONNECTIONS BETWEEN CLUSTERS =============
+A --> C
+B --> C
+
+%% Optional: Add the research gaps and future trends
+C --> RG[Research Gaps & Future Trends<br>(Section 5)]
+```
+
+```
